@@ -2,15 +2,23 @@ img.Clinton {
 width: 100px;
 height: 100px;
 }
-img.Clinton01 {
-    width: 100px;
-    height: 100px;
-    }
 img.Network01 {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     }
-    img.Topology {
-        width: 500px;
-        height: 300px;
+img.Topology {
+    width: 400px;
+    height: 300px;
+    }
+img.AWSpipelineconfig {
+    width: 400px;
+    height: 300px;
+    }
+img.AWSactivepipeline {
+    width: 400px;
+    height: 300px;
+    }
+img.CommitsClinton {
+    width: 400px;
+    height: 300px;
         }
