@@ -103,11 +103,20 @@
         <hr align="left" color="#000" width="20%">
             <p align="left"><font face="sans-serif" color="#017bf5" size="5.5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspCONTACT US</font></p>
         <hr align="left" color="#000" width="20%">
-    <br />
-    <form action="https://formspree.io/maypvlva" method="POST">
-        <input type="email" name="_replyto" placeholder="your email"> 
-        <input type="textarea" name="name" placeholder="your message">
-        <input type="submit" value="Send"> 
-    </form>
-</div>
+    
+        <form action="https://formspree.io/maypvlva" method="POST">
+        <label>
+          Your email:
+          <input type="text" name="_replyto">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+      
+        <!-- your other form fields go here -->
+      
+        <button type="submit">Send</button>
+      </form>
+    </div>
 </html>
