@@ -3,22 +3,32 @@ width: 100px;
 height: 100px;
 }
 img.Network01 {
-    width: 700px;
-    height: 450px;
+    width: 320px;
+    height: 240px;
     }
 img.Topology {
-    width: 700px;
-    height: 450px;
+    width: 320px;
+    height: 240px;
     }
 img.AWSpipelineconfig {
-    width: 700px;
-    height: 450px;
+    width: 320px;
+    height: 240px;
     }
 img.AWSactivepipeline {
-    width: 700px;
-    height: 450px;
+    width: 320px;
+    height: 240px;
     }
 img.CommitsClinton {
-    width: 700px;
-    height: 450px;
+    width: 320px;
+    height: 240px;
         }
+}    
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
