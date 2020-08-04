@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="Clinton Fourie" content="true">
+</head>
+<div class="main" id="home">
+<br />
+    <body>
+        <h3 align="left">
+            <img src="/pictures/Clinton.png" alt="Clinton Fourie 01" class="Clinton">&nbsp;&nbsp;&nbsp;&nbsp;
+            <font face="sans" size="4">
+                <a href="#Home">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#PORTFOLIO">PORTFOLIO</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#BLOG">BLOG</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#CONTACT US">CONTACT US</a>
+            </font>
+        </h3>
+    </div>
+</body>
+<br />
+<br />
+<body>
+    <h2>Clinton Fourie Tel: +27617002835 e-mail: clinton.fourieza@outlook.com</h2>
+        <br />    
+            <h2>This is part of my DevOps project and this site is still under construction!</h2>
+                <p>My static website is pointing to my AWS s3 public bucket (DNS).
+                <br>I have setup 2x development VM's (1x Windows 10 32bit and 1x Ubuntu 20.04 64bit)
+                <br>The Windows 10 uses Git, GitKarken and it is set to commit to dev branch 01.
+                <br>The Ubuntu runs Git, Visual studio Code and it is set to commit to dev branch 02.
+                <br>I, myself run Windows 10 64bit with Git, Visual Studio Code and Github desktop.
+                <br>I have tested the commits to the master branch from all sources but still need to test the commits to dev branches. 
+                <br>I have linked my master branch to to AWS s3 bucket by creating a pipeline.
+                <br>I have tested and all code commits exactly as I want it to with it updateing within seconds of my push.
+                <br>I need to check the commit time on Github vs the commit time on AWS to see what the update time difference is! 
+                </p>
+</body>
+<br />
+<br />
+<body>
+    <div class="main" id="PORTFOLIO">       
+<h3>Network Diagram (Home Lab):</h3>
+        <img src="/images/Network Diagram 01.png" alt="Clinton Fourie 02" class="Network01">
+</body>
+<br />
+<br />
+<body>
+        <h3>Network Topologies (Core infrastructure):</h3>
+        <img src="/images/Topology.png" alt="Clinton Fourie 03" class="Topology">
+</body>
+<br />
+<br />
+<body>
+    <h3>DevOps Resources:</h3>
+    <h4>Gitlab and OverOps; discuss quality gates.</h4>
+    <p>
+        <a href="https://youtu.be/cknZfRYR8UI">1) Video: Testing is Not Sufficient: 5 Ways to Know If Your Code is Really Production-Ready</a>
+        <br><a href="/Documents/devopsmaturity.pdf">2) PDF: OverOps - Tali Soroker: Delivering Reliable Software in the Enterprise</a>
+    </p>
+</body>
+<br />
+<br />
+<body>
+    <h3>DevOps (AWS Pipeline):</h3>
+    <img src="/images/AWSpipelineconfig.PNG" alt="Clinton Fourie 04" class="AWSpipelineconfig">
+</body>
+<br />
+<br />
+<body>
+    <h3>DevOps (AWS Active CodeCommit Pipeline):</h3>
+    <img src="/images/AWSactivepipeline.PNG" alt="Clinton Fourie 05" class="AWSactivepipeline">
+</body>
+<br />
+<br />
+<body>
+    <h3>DevOps (GitHub Active AWS Code Commits):</h3>
+    <img src="/images/CommitsClinton.PNG" alt="Clinton Fourie 06" class="CommitsClinton">
+</body>
+<br />
+<br />
+<body>
+    <div class="main" id="BLOG">
+        <h3>DevOps Blog:</h3>
+            <h4>Blog post 01; DevOps discussion (28/07/2020)</h4>
+                <p>DevOps pipelines are an investment and testing different solutions for different languages will become "DevOps Best Practise".
+                <br>There are many solutions out there to choose from, some of these don't understand the fundamentals of networking principles.
+                <br>Do you understand your OSI model, communication protocols or principles, App security, pipeline security, DNS leaks, Data leaks?
+                <br>If not, then it will be much safer for you to keep everything under one umbrella, rather than trying to build out your pipeline
+                <br>over secure or insecure connections. Just imagine someone intercepts your code during the commit phase or injects code into
+                <br>your pipeline, whos going to tell the clients that every app is a potential hidden botnet. It is one thing, thinking your code
+                <br>needs to be tried and tested, as your pipeline should also be monitored, patched and upgraded for any potential
+                <br>vulnrabilities.
+                <br>So you need your trusted and tested pipeline and you also need a "development pipeline" the one you can play around with.
+                <br>A few more lines of text and this could become an Amazon Web Services add.
+                </p>
+    </div>            
+</body>
+<br />
+<br />
+    <div class="contact">
+        <hr align="left" color="#000" width="20%">
+            <p align="left"><font face="sans-serif" color="#017bf5" size="5.5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbspCONTACT US</font></p>
+        <hr align="left" color="#000" width="20%">
+    <br />
+    <form name="f1" id="contact-form">
+        <table align="left" cellpadding="5" cellspacing="12" border="1" height="200">
+            <tr>
+                <td>
+                    <input type="text" name="first_name" placeholder="First Name" required="required" />
+                </td>
+                <td>
+                    <input type="text" name="Last_name" placeholder="Last Name" required="required" />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" placeholder="Email" required="required" /></td>
+                <td><input type="text" name="subject" placeholder="Subject" required="required" /></td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <textarea placeholder="Enter Message" required=""></textarea>
+                </th>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <input type="submit" name="contact-submit" value="SEND">
+                </th>
+            </tr>
+        </table>
+    </form>
+</div>
+</html>
